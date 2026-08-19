@@ -1,2 +1,5 @@
-.ipynb_checkpoints
-.virtual_documents
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# VS Code / virtual document files
+*.virtual_documents
