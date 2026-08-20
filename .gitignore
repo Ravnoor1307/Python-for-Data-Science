@@ -7,3 +7,4 @@
 # Ignore text and JSON files
 *.txt
 *.json
+*.png
