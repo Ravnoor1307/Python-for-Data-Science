@@ -3,3 +3,5 @@
 
 # VS Code / virtual document files
 .virtual_documents/
+.txt
+.json
