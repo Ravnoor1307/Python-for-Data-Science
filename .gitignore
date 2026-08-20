@@ -1,10 +1,16 @@
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# VS Code / virtual document files
+# VS Code virtual documents
 .virtual_documents/
 
-# Ignore text and JSON files
+# Ignore text, JSON, and images
 *.txt
 *.json
 *.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
