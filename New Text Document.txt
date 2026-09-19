@@ -1,0 +1,152 @@
+📁 
+├── 📁 11_Standard_Library/
+│   │
+│   ├── 📁 01_os_sys/                           [PRACTICAL]
+│   │   ├── 📓 01_os_sys_theory.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: none (system operations)
+│   │
+│   ├── 📁 02_pathlib/                          [PRACTICAL]
+│   │   ├── 📓 01_pathlib_theory.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: datasets folder ko programmatically explore
+│   │
+│   ├── 📁 03_datetime_time/                    [PRACTICAL]
+│   │   ├── 📓 01_datetime_theory.ipynb
+│   │   ├── 📓 02_time_calculations.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: weather_data.csv (dates ke saath)
+│   │
+│   ├── 📁 04_math_random/                      [PRACTICAL]
+│   │   ├── 📓 01_math_random_theory.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: none (math formulas + dice games)
+│   │
+│   └── 📁 05_logging/                          [PRACTICAL]
+│       ├── 📓 01_logging_module_theory.ipynb
+│       ├── 📝 task.ipynb
+│       └── 📄 README.md
+│       💾 Concept: data processing pipeline logging
+│
+├── 📁 12_Async_Parallel_Python/
+│   │
+│   ├── 📁 01_Multithreading_vs_Multiprocessing/ [THEORY+DEMO]
+│   │   ├── 📓 01_concepts_theory.ipynb
+│   │   ├── 📓 02_comparison_demo.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Demo: badi file (sales_data × 100 copies) parallel read
+│   │
+│   ├── 📁 02_Async_Await/                      [PRACTICAL]
+│   │   ├── 📓 01_async_await_theory.ipynb
+│   │   ├── 📓 02_async_examples.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Demo: 3 fake API calls parallel me
+│   │
+│   ├── 📁 03_Async_IO_Basics/                  [PRACTICAL]
+│   │   ├── 📓 01_asyncio_basics_theory.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Demo: multiple downloads simulate
+│   │
+│   └── 📁 04_When_to_Use_Each/                 [THEORY]
+│       ├── 📓 01_decision_guide_theory.ipynb
+│       └── 📄 README.md
+│       💾 None — decision flowchart notebook
+│
+├── 📁 13_Other_Libraries/
+│   │
+│   ├── 📁 01_FastAPI/                          [PRACTICAL]
+│   │   ├── 📓 01_fastapi_basics_theory.ipynb
+│   │   ├── 📓 02_building_first_api.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: students_marks.csv (API se students serve karo)
+│   │
+│   ├── 📁 02_Pydantic/                         [PRACTICAL]
+│   │   ├── 📓 01_pydantic_validation_theory.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Concept: Student model validation (age 0-100!)
+│   │
+│   ├── 📁 03_Flask_WebDev/                     [PRACTICAL]
+│   │   ├── 📓 01_flask_basics_theory.ipynb
+│   │   ├── 📓 02_routes_templates.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: products_catalog.csv (product website)
+│   │
+│   ├── 📁 04_Streamlit_Dashboards/             [PRACTICAL]
+│   │   ├── 📓 01_streamlit_theory.ipynb
+│   │   ├── 📓 02_building_data_app.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: Zomato_mini_dataset.csv
+│   │   → Restaurant explorer app — filters, charts live! ⭐
+│   │
+│   ├── 📁 05_Dash_Plotly_Dashboards/           [PRACTICAL]
+│   │   ├── 📓 01_dash_theory_layouts.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Dataset: sales_data.csv (sales dashboard)
+│   │
+│   ├── 📁 06_Tkinter_GUI/                      [PRACTICAL]
+│   │   ├── 📓 01_tkinter_basics_theory.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Concept: marks calculator GUI
+│   │
+│   ├── 📁 07_PyQt_GUI/                         [PRACTICAL]
+│   │   ├── 📓 01_pyqt_basics_theory.ipynb
+│   │   ├── 📝 task.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Concept: employee manager desktop app
+│   │
+│   └── 📁 08_Gradio_AI_Demos/                  [PRACTICAL]
+│       ├── 📓 01_gradio_theory.ipynb
+│       ├── 📓 02_ml_model_demo_app.ipynb
+│       ├── 📝 task.ipynb
+│       └── 📄 README.md
+│       💾 Concept: marks-predictor demo app
+│       → (ML aane ke baad isi pe model demo banega!) 🔥
+│
+├── 📁 14_Production_Ready_Mindset/
+│   │
+│   ├── 📁 01_Clean_Readable_Code/              [THEORY]
+│   │   ├── 📓 01_clean_code_principles_theory.ipynb
+│   │   ├── 📓 02_before_after_examples.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Demo: GANDA code vs CLEAN code (same logic)
+│   │
+│   ├── 📁 02_Modular_Design/                   [THEORY]
+│   │   ├── 📓 01_modular_design_theory.ipynb
+│   │   ├── 📓 02_refactoring_demo.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Demo: 1 badi script → 3 clean modules
+│   │
+│   ├── 📁 03_Logging_Monitoring_Mindset/       [THEORY]
+│   │   ├── 📓 01_logging_mindset_theory.ipynb
+│   │   └── 📄 README.md
+│   │   💾 Concept examples
+│   │
+│   └── 📁 04_Reading_Others_Code/              [THEORY]
+│       ├── 📓 01_reading_code_strategies_theory.ipynb
+│       └── 📄 README.md
+│       💾 Practice: GitHub se ek open-source mini repo padhna
+│
+└── 📁 99_Practice_Projects/
+    ├── 📄 README.md
+    ├── 📁 mini_calculator/
+    │   💾 None — pure logic
+    ├── 📁 todo_list_cli/
+    │   💾 todo_data.json (tasks JSON me save)
+    ├── 📁 password_generator/
+    │   💾 None — random module
+    ├── 📁 file_organizer/
+    │   💾 test_folder (messy files organize karo)
+    └── 📁 web_scraper_basics/
+        💾 Live website data → CSV save
